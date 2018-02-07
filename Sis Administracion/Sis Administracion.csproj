@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3996DC33-57AA-4394-ABA3-6420CF2ACC9B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sis_Administracion</RootNamespace>
+    <AssemblyName>Sis Administracion</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\Enums\FormaPago.cs" />
+    <Compile Include="DAL\Enums\TipoAccionABM.cs" />
+    <Compile Include="DAL\Enums\TipoComprobante.cs" />
+    <Compile Include="DAL\Enums\TipoOps.cs" />
+    <Compile Include="DAL\Identidad\Sujeto.cs" />
+    <Compile Include="DAL\Identidad\Comprobante.cs" />
+    <Compile Include="DAL\Identidad\Usuario.cs" />
+    <Compile Include="DAL\Identidad\Producto.cs" />
+    <Compile Include="DAL\Identidad\ProductoMovimiento.cs" />
+    <Compile Include="DAL\Servicios\ComprobanteServicios.cs" />
+    <Compile Include="DAL\Servicios\UsuarioServicios.cs" />
+    <Compile Include="DAL\Servicios\ProductoServicios.cs" />
+    <Compile Include="DAL\Servicios\ProductoMovimientoServicios.cs" />
+    <Compile Include="DAL\Servicios\FormularioServicios.cs" />
+    <Compile Include="DAL\Servicios\SujetoServicios.cs" />
+    <Compile Include="Formularios\_00_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\_00_Usuario.Designer.cs">
+      <DependentUpon>_00_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\_01_Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\_01_Configuracion.Designer.cs">
+      <DependentUpon>_01_Configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\_02_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\_02_Cliente.Designer.cs">
+      <DependentUpon>_02_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\_03_ABM_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\_03_ABM_Cliente.Designer.cs">
+      <DependentUpon>_03_ABM_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\_04_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\_04_Proveedor.Designer.cs">
+      <DependentUpon>_04_Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\_05_ABM_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\_05_ABM_Proveedor.Designer.cs">
+      <DependentUpon>_05_ABM_Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\_06_Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\_06_Productos.Designer.cs">
+      <DependentUpon>_06_Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\_07_ABM_Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\_07_ABM_Productos.Designer.cs">
+      <DependentUpon>_07_ABM_Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\_08_FactuaraVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\_08_FactuaraVentas.Designer.cs">
+      <DependentUpon>_08_FactuaraVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\_09_ABM_FacturaVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\_09_ABM_FacturaVentas.Designer.cs">
+      <DependentUpon>_09_ABM_FacturaVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\_01_Configuracion.resx">
+      <DependentUpon>_01_Configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\_02_Cliente.resx">
+      <DependentUpon>_02_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\_03_ABM_Cliente.resx">
+      <DependentUpon>_03_ABM_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\_04_Proveedor.resx">
+      <DependentUpon>_04_Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\_05_ABM_Proveedor.resx">
+      <DependentUpon>_05_ABM_Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\_06_Productos.resx">
+      <DependentUpon>_06_Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\_07_ABM_Productos.resx">
+      <DependentUpon>_07_ABM_Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\_08_FactuaraVentas.resx">
+      <DependentUpon>_08_FactuaraVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\_09_ABM_FacturaVentas.resx">
+      <DependentUpon>_09_ABM_FacturaVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_all_inclusive_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_attach_money_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_cancel_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_check_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_chevron_left_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_chevron_right_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_create_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_done_all_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_equalizer_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_face_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_local_shipping_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_monetization_on_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_pie_chart_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_power_settings_new_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_search_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_settings_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_tune_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_vpn_key_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_shopping_cart_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_cancel_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_add_box_black_48dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_add_box_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_highlight_off_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_add_circle_outline_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_file_download_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_file_download_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_highlight_off_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_add_circle_outline_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_add_circle_outline_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_file_download_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_highlight_off_white_24dp.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,18 @@
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\bin\Debug\Sis Administracion.exe.config
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\bin\Debug\Sis Administracion.exe
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\bin\Debug\Sis Administracion.pdb
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis Administracion.csprojResolveAssemblyReference.cache
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis_Administracion.frmPrincipal.resources
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis_Administracion.Properties.Resources.resources
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis Administracion.csproj.GenerateResource.Cache
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis Administracion.csproj.CoreCompileInputs.cache
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis Administracion.exe
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis Administracion.pdb
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis_Administracion.Formularios._01_Configuracion.resources
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis_Administracion.Formularios._02_Cliente.resources
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis_Administracion.Formularios._04_Proveedor.resources
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis_Administracion.Formularios._06_ABM_Factura.resources
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis_Administracion.Formularios._03_ABM_Cliente.resources
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis_Administracion.Formularios._05_ABM_Proveedor.resources
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis_Administracion.Formularios._06_Productos.resources
+C:\Users\Fede\Google Drive\UTN Lic Programacion\Laboratorio I\08 - Sist Administracion\Sis Administracion\Sis Administracion\obj\Debug\Sis_Administracion.Formularios._07_ABM_Productos.resources
